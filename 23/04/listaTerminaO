@@ -1,0 +1,9 @@
+nomes = ["Bruno","Jessica","jhossatan","oi","tudo","bem","?"]
+nomesO= []
+
+for nome in nomes:
+    if nome.lower()[-1] == "o":
+        nomesO.append(nome)
+
+nomesO.sort(reverse=True)
+print(nomesO)
